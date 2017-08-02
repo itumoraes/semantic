@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 960px;
+  margin: 0 auto;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+}
+
+h1, h2 { font-weight: normal; }
+
+header,
+#top {
+  background: red;
+  padding-top: 40px;
+  color: #fff;
+}
+
+header h1,
+#top h1 {
+  font-size: 56px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+header nav,
+#top #menu {
+  background: blue;
+  padding: 0 10px;
+}
+
+header nav a,
+#top #menu a {
+  color: inherit;
+  padding: 15px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+header nav a:hover,
+#top #menu a:hover {
+  text-decoration: underline;
+}
+
+article,
+#content {
+  padding: 20px 0;
+}
+
+article div,
+#content div {
+  width: 700px;
+  display: inline-block;
+  padding: 0 20px;
+}
+
+article h1,
+#content h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+p {
+  margin-bottom: 12px;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+aside,
+#content #sidebar {
+  width: 256px;
+  display: inline-block;
+  vertical-align: top;
+  border: 1px solid #000;
+  padding: 10px;
+}
+
+aside h2,
+#content #sidebar h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+aside li,
+#content #sidebar li {
+  list-style-position: inside;
+  margin-left: 20px;
+}
+
+footer,
+#bottom {
+  background: gray;
+  padding: 15px;
+  color: #fff;
+}
